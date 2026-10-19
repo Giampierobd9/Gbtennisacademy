@@ -181,7 +181,7 @@
     <nav class="tabs" role="tablist" aria-label="Sections">
       <button class="tab" role="tab" id="t-home"    aria-controls="p-home"    aria-selected="true">Home</button>
       <button class="tab" role="tab" id="t-about"   aria-controls="p-about"   aria-selected="false">About me</button>
-      <button class="tab" role="tab" id="t-book"    aria-controls="p-book"    aria-selected="false">Book</button>
+      <button class="tab" role="tab" id="t-book"    aria-controls="p-book"    aria-selected="false">Bookings</button>
       <button class="tab" role="tab" id="t-shop"    aria-controls="p-shop"    aria-selected="false">Shop</button>
       <button class="tab" role="tab" id="t-collabs" aria-controls="p-collabs" aria-selected="false">Collabs</button>
     </nav>
@@ -321,7 +321,7 @@
 <div class="panel" id="p-book" role="tabpanel" aria-labelledby="t-book" hidden>
   <div class="block">
     <div class="wrap">
-      <p class="eyebrow">Book</p>
+      <p class="eyebrow">Bookings</p>
       <h2>Sessions, clinics and socials.</h2>
       <p class="lead">One-to-one coaching or group sessions at Barn Elms — pick what fits.</p>
 
@@ -342,82 +342,135 @@
         <div class="card">
           <span class="tag">Group</span>
           <h3>Clinics</h3>
-          <p class="price">£60 <small>2 hours</small></p>
-          <p class="muted" style="font-size:15px;margin:0">Beginner and intermediate groups</p>
+          <p class="price">£90 <small>3 hours</small></p>
+          <p class="muted" style="font-size:15px;margin:0">Saturdays 10:00–13:00 · max 12 players</p>
           <ul class="ticks">
-            <li>Beginner 10:00–12:00</li>
-            <li>Intermediate 12:00–14:00</li>
+            <li>Beginner, intermediate and advanced weeks</li>
+            <li>One level per Saturday — check the dates</li>
             <li>Technique, tactics and live points</li>
           </ul>
-          <a class="btn" href="#book">See dates</a>
+          <a class="btn" href="#dates">See dates</a>
         </div>
 
         <div class="card">
           <span class="tag">Group</span>
           <h3>Socials</h3>
-          <p class="price">£35 <small>11:00–13:00</small></p>
-          <p class="muted" style="font-size:15px;margin:0">High energy, all levels</p>
+          <p class="price">£35 <small>13:00–15:00</small></p>
+          <p class="muted" style="font-size:15px;margin:0">Every Saturday · all levels</p>
           <ul class="ticks">
             <li>Games, points and lots of fun</li>
             <li>Socialise with other players</li>
             <li>Coffee afterwards</li>
           </ul>
-          <a class="btn" href="#book">See dates</a>
+          <a class="btn" href="#dates">See dates</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="block">
+  <div class="block" id="dates" style="scroll-margin-top:110px">
     <div class="wrap">
       <h2>Upcoming dates.</h2>
-      <p class="lead">Saturdays at Barn Elms. Pick a session to book your spot.</p>
+      <p class="lead">Saturdays at Barn Elms. Clinic in the morning, social straight after. When you book a clinic, choose the same date at checkout.</p>
 
       <div class="slots">
         <div class="slot">
-          <div class="date"><span class="w">SAT</span><span class="d">19</span><span class="m">SEP</span></div>
-          <div class="slot-main">
-            <span class="badge">Social</span>
-            <span class="slot-info">11:00–13:00 · All levels · £35</span>
-            <span class="slot-links"><a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Book &amp; pay</a></span>
-          </div>
-        </div>
-        <div class="slot">
-          <div class="date"><span class="w">SAT</span><span class="d">26</span><span class="m">SEP</span></div>
-          <div class="slot-main">
-            <span class="badge clinic">Clinic</span>
-            <span class="slot-info">Beginner 10:00–12:00 · Intermediate 12:00–14:00 · £60</span>
-            <span class="slot-links">
-              <a class="book" href="https://buy.stripe.com/bJe8wQgvvfa09qQ357ao80e" target="_blank" rel="noopener">Beginner — book &amp; pay</a>
-              <a class="book" href="https://buy.stripe.com/cNieVe4MNbXO5aAgVXao80f" target="_blank" rel="noopener">Intermediate — book &amp; pay</a>
-            </span>
-          </div>
-        </div>
-        <div class="slot">
-          <div class="date"><span class="w">SAT</span><span class="d">10</span><span class="m">OCT</span></div>
-          <div class="slot-main">
-            <span class="badge">Social</span>
-            <span class="slot-info">11:00–13:00 · All levels · £35</span>
-            <span class="slot-links"><a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Book &amp; pay</a></span>
-          </div>
-        </div>
-        <div class="slot">
-          <div class="date"><span class="w">SAT</span><span class="d">17</span><span class="m">OCT</span></div>
-          <div class="slot-main">
-            <span class="badge clinic">Clinic</span>
-            <span class="slot-info">Beginner 10:00–12:00 · Intermediate 12:00–14:00 · £60</span>
-            <span class="slot-links">
-              <a class="book" href="https://buy.stripe.com/bJe8wQgvvfa09qQ357ao80e" target="_blank" rel="noopener">Beginner — book &amp; pay</a>
-              <a class="book" href="https://buy.stripe.com/cNieVe4MNbXO5aAgVXao80f" target="_blank" rel="noopener">Intermediate — book &amp; pay</a>
-            </span>
-          </div>
-        </div>
-        <div class="slot">
           <div class="date"><span class="w">SAT</span><span class="d">24</span><span class="m">OCT</span></div>
           <div class="slot-main">
-            <span class="badge">Social</span>
-            <span class="slot-info">11:00–13:00 · All levels · £35</span>
-            <span class="slot-links"><a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Book &amp; pay</a></span>
+            <span class="badge clinic">Beginner clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/bJe00kfrr2ne0UkfRTao80q" target="_blank" rel="noopener">Beginner clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="date"><span class="w">SAT</span><span class="d">31</span><span class="m">OCT</span></div>
+          <div class="slot-main">
+            <span class="badge clinic">Intermediate clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/6oU14o4MNaTK1Yo9tvao80r" target="_blank" rel="noopener">Intermediate clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="date"><span class="w">SAT</span><span class="d">7</span><span class="m">NOV</span></div>
+          <div class="slot-main">
+            <span class="badge clinic">Beginner clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/bJe00kfrr2ne0UkfRTao80q" target="_blank" rel="noopener">Beginner clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="date"><span class="w">SAT</span><span class="d">14</span><span class="m">NOV</span></div>
+          <div class="slot-main">
+            <span class="badge clinic">Intermediate clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/6oU14o4MNaTK1Yo9tvao80r" target="_blank" rel="noopener">Intermediate clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="date"><span class="w">SAT</span><span class="d">21</span><span class="m">NOV</span></div>
+          <div class="slot-main">
+            <span class="badge clinic">Advanced clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/bJe5kE933d1S46w6hjao80s" target="_blank" rel="noopener">Advanced clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="date"><span class="w">SAT</span><span class="d">28</span><span class="m">NOV</span></div>
+          <div class="slot-main">
+            <span class="badge clinic">Beginner clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/bJe00kfrr2ne0UkfRTao80q" target="_blank" rel="noopener">Beginner clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="date"><span class="w">SAT</span><span class="d">5</span><span class="m">DEC</span></div>
+          <div class="slot-main">
+            <span class="badge clinic">Intermediate clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/6oU14o4MNaTK1Yo9tvao80r" target="_blank" rel="noopener">Intermediate clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="date"><span class="w">SAT</span><span class="d">12</span><span class="m">DEC</span></div>
+          <div class="slot-main">
+            <span class="badge clinic">Beginner clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/bJe00kfrr2ne0UkfRTao80q" target="_blank" rel="noopener">Beginner clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
+          </div>
+        </div>
+        <div class="slot">
+          <div class="date"><span class="w">SAT</span><span class="d">19</span><span class="m">DEC</span></div>
+          <div class="slot-main">
+            <span class="badge clinic">Intermediate clinic</span>
+            <span class="slot-info">Clinic 10:00–13:00 · £90<br>Social 13:00–15:00 · all levels · £35</span>
+            <span class="slot-links">
+              <a class="book" href="https://book.stripe.com/6oU14o4MNaTK1Yo9tvao80r" target="_blank" rel="noopener">Intermediate clinic — book &amp; pay</a>
+              <a class="book" href="https://book.stripe.com/aFa3cw3IJ5zqcD25dfao80a" target="_blank" rel="noopener">Social — book &amp; pay</a>
+            </span>
           </div>
         </div>
       </div>
@@ -542,10 +595,23 @@
     var a = e.target.closest && e.target.closest('a[href^="#"]');
     if (!a) return;
     var id = a.getAttribute('href').slice(1);
-    if (document.getElementById('t-' + id)) { e.preventDefault(); show(id, true); }
+    if (document.getElementById('t-' + id)) { e.preventDefault(); show(id, true); return; }
+    var target = document.getElementById(id);
+    var panel = target && target.closest('.panel');
+    if (panel) {
+      e.preventDefault();
+      var pid = panel.id.slice(2);
+      var tab = document.getElementById('t-' + pid);
+      if (tab && tab.getAttribute('aria-selected') !== 'true') show(pid, false);
+      try { history.replaceState(null, '', '#' + id); } catch(err){}
+      target.scrollIntoView({behavior: 'smooth', block: 'start'});
+    }
   });
   var start = (location.hash || '').slice(1);
-  show(document.getElementById('t-' + start) ? start : 'home', false);
+  var startEl = start && document.getElementById(start);
+  var startPanel = startEl && !document.getElementById('t-' + start) && startEl.closest('.panel');
+  if (startPanel) { show(startPanel.id.slice(2), false); startEl.scrollIntoView(); }
+  else show(document.getElementById('t-' + start) ? start : 'home', false);
 })();
 </script>
 </body>
